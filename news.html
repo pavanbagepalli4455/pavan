@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>bar section</title>
+	<link rel="stylesheet"  href="webpage_styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+	<link rel="stylesheet"  href="fontawesome/css/all.css">
+	<style>
+		  #main-section .kkk img:hover
+{
+  transform:scale(1.5,1.5);
+}
+#main-section .kkk
+{
+  background-color:darkred;
+  color:white;
+  margin:0px;
+  overflow:hidden;
+}
+#main-nav .kkk
+{
+  background:linear-gradient(45deg,darkslategrey,brown);
+  padding:5px;
+  display:flex;
+  flex-direction:row;
+}
+#main-nav a
+{
+  color:white;
+  text-decoration:none;
+  margin:8px;
+  display:inline-block;
+  padding:10px 20px;
+}
+
+@media (max-width:600px)
+{
+  #main-nav .kkk img
+  {
+    flex-direction:column;
+  }
+}
+@media (max-width:750px)
+{
+  #main-nav .kkk img
+  {
+    flex-direction:column;
+  }
+  #main-section .kkk img
+  {
+    width:400px;
+  }
+
+}
+@media (max-width:500px)
+{
+  #main-nav .kkk img
+  {
+    flex-direction:column;
+  }
+  #main-section .kkk img
+  {
+    width:200px;
+  }
+
+}
+body
+		{
+			background:url("https://www.crushpixel.com/big-static14/preview4/wine-glasses-bottles-seamless-pattern-1549745.jpg");
+		}
+	</style>
+
+</head>
+<body>
+	<!--Main Header-->
+	<header id="main-header">
+		<h1 style="color:crimson;" class="animate__animated animate__flash">Kirru Bar&restaurent</h1>
+	</header>
+
+	<!--Main Navbar-->
+	<nav id="main-nav" class="animate__animated animate__flipInX">
+		<a href="home.html" class="active"><i class="fa fa-home"></i>Home</a>
+		<a href="news.html"><i class="fa fa-newspaper"></i>News</a>
+		<a href="gallery.html" ><i class="fa fa-images"></i>Gallery</a>
+		<a href="about.html"><i class="fa fa-id-card"></i>About</a>
+		<a href="contactus.html"><i class="fa fa-envelope"></i>Contact Us</a>
+	</nav>
+
+	<!--Main-Section-->
+	<section id="main-section">
+		<!--Beer News-->
+		<article class="kkk">
+			<h2>Beer News</h2>
+			<table>
+			<tr>
+		 
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkWXHW1zWrjp-ePpRlK3PR_TfJkapLW-TbkA&usqp=CAU" width="500" height="400"></td>	
+	     <td><img src="https://www.posist.com/restaurant-times/wp-content/uploads/2018/03/Annual-Liquour-License-Fee.jpg" width="500" height="400"></td>
+	     <td><img src="https://i.ytimg.com/vi/sbd2jBXp5U0/maxresdefault.jpg" width="500" height="400"></td>
+		</tr>
+		</table>
+		</article>
+		<article class="kkk">
+			<h2>Alcohol News</h2>
+			<table>
+			<tr>
+		 <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGkznmpJZ3E8SzLTAEqwY-YYTtJ1ZkhbYYYw&usqp=CAU" width="500" height="400"></td>	
+	     <td><img src="https://cdn.vox-cdn.com/thumbor/kD-ZFGHFwNcROd3-Clv3zLS-TpU=/0x0:1033x755/1400x1050/filters:focal(138x149:302x313):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/56234453/TOC_whiskey.0.png" width="500" height="400"></td>
+	     <td><img src="https://d84potgbojizh.cloudfront.net/wp-content/uploads/2019/08/8-Wine-that-Doesnt-Taste-Like-Alcohol-SocialShare.png" width="500" height="400"></td>
+		</tr>
+		</table>
+		</article>
+	</section>
+</body>
+</html>

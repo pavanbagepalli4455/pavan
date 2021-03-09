@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>bar section</title>
+  <link rel="stylesheet"  href="webpage_styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+  <link rel="stylesheet"  href="fontawesome/css/all.css">
+  <style >
+    body
+    {
+      background:url("https://www.crushpixel.com/big-static14/preview4/wine-glasses-bottles-seamless-pattern-1549745.jpg");
+    }
+   #main-section .abc img:hover
+{
+  transform:scale(1.5,1.5);
+}
+#main-section .abc
+{
+  background-color:darkred;
+  color:white;
+  margin:0px;
+  padding:10px;
+  overflow:hidden;
+}
+#main-nav .abc
+{
+  background:linear-gradient(45deg,darkslategrey,brown);
+  padding:5px;
+  display:flex;
+  flex-direction:row;
+}
+#main-nav a
+{
+  color:white;
+  text-decoration:none;
+  margin:8px;
+  display:inline-block;
+  padding:10px 20px;
+}
+
+@media (max-width:600px)
+{
+  #main-nav .abc img
+  {
+    flex-direction:column;
+  }
+}
+@media (max-width:750px)
+{
+  #main-nav .abc img
+  {
+    flex-direction:column;
+  }
+  #main-section .abc img
+  {
+    width:400px;
+  }
+
+}
+@media (max-width:500px)
+{
+  #main-nav .abc img
+  {
+    flex-direction:column;
+  }
+  #main-section .abc img
+  {
+    width:200px;
+  }
+
+}
+
+
+  </style>
+
+</head>
+<body>
+  <!--Main Header-->
+  <header id="main-header">
+    <h1 style="color:crimson;" class="animate__animated animate__flash">Kirru Bar&restaurent</h1>
+  </header>
+
+  <!--Main Navbar-->
+  <nav id="main-nav" class="animate__animated animate__flipInX">
+    <a href="home.html" class="active"><i class="fa fa-home"></i>Home</a>
+    <a href="news.html"><i class="fa fa-newspaper"></i>News</a>
+    <a href="gallery.html" ><i class="fa fa-images"></i>Gallery</a>
+    <a href="about.html"><i class="fa fa-id-card"></i>About</a>
+    <a href="contactus.html"><i class="fa fa-envelope"></i>Contact Us</a>
+  </nav>
+  <section id="main-section">
+    <!--Beer News-->
+    <article class="abc">
+      <table>
+        <tr>
+          <td> <img src="https://static.toiimg.com/thumb/msid-80748246,width-500,height-400,resizemode-4/.jpg"></td>
+          <td> <img src="http://cdn.cnn.com/cnnnext/dam/assets/201216114748-12-india-cocktail-bars.jpg " width="500" height="400"></td>
+          <td> <img src="https://www.worldsbestbars.com/wp-content/uploads/2020/04/Jeremiah-Cocktail-bar-Tokyo-003.jpeg" width="500" height="400"></td>
+        </tr>
+      </table>
+    </article>
+    <article class="abc">
+      <table>
+        <tr>
+          <td> <img src="https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="500" height="400"></td>
+          <td> <img src="https://images8.alphacoders.com/689/thumb-1920-689100.jpg" width="500" height="400"></td>
+          <td> <img src="https://wallpapercave.com/wp/wp3184114.jpg" width="500" height="400"></td>
+        </tr>
+      </table>
+    </article>
